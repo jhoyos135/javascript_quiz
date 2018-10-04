@@ -1,0 +1,67 @@
+body {
+    background-color: #eeeeee;
+}
+
+.grid {
+    max-width: 650px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border: 2px solid #cbcbcb;
+}
+
+.grid h1 {
+    background-color: #333;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0px;
+}
+
+#score {
+    color: #5A6772;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid #question {
+    font-size: 30px;
+    color: #5A6772;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #9db5ca;
+    width: 100%;
+    font-size: 20px;
+    color: #000;
+    margin: 10px 40px 10px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+button {
+    cursor: pointer;
+    background-color: #9db5ca !important;
+    color: #333 !important;
+    text-align: center;
+}
+
+#progress {
+    color: #333;
+    font-size: 18px;
+}
